@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!---Custom Stylesheet-->
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-xl-9 mx-auto">
+          <div class="card card-signin flex-row my-5">
+            <div class="card-img-left d-none d-md-flex">
+               <!-- Background image for card set in CSS! -->
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Register</h5>
+              <form class="form-signin">
+                <div class="form-label-group">
+                  <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+                  <label for="inputUserame">Username</label>
+                </div>
+  
+                <div class="form-label-group">
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                  <label for="inputEmail">Email address</label>
+                </div>
+                
+                <hr>
+  
+                <div class="form-label-group">
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                  <label for="inputPassword">Password</label>
+                </div>
+                
+                <div class="form-label-group">
+                  <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                  <label for="inputConfirmPassword">Confirm password</label>
+                </div>
+                
+                <div class="form-label-group">
+                    <input type="number" id="inputnumber" class="form-control" placeholder="Mobile Number" required autofocus>
+                    <label for="inputnumber">  Mobile Number</label>
+                </div>
+
+                <div class="form-label-group">
+                    <input type="textarea" id="inputcity" class="form-control" placeholder="City" required autofocus>
+                    <label for="inputcity">City</label>
+                </div>
+                
+                <div class="form-label-group">
+                    <input type="number" id="inputpin" class="form-control" placeholder="Pincode" required autofocus>
+                    <label for="inputpin">Pincode</label>
+                </div>
+                <div class="form-label-group">
+                    <input type="textarea" id="inputaddress" class="form-control" placeholder="Address" required autofocus>
+                    <label for="inputaddress">Address</label>
+                  </div>
+                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
+                <a class="d-block text-center mt-2 small" href="signin.html">Sign In</a>
+                <hr class="my-4">
+                <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
+                <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
